@@ -84,7 +84,7 @@ section>.slot:first-child{margin-top:0}
 figcaption{font-size:1rem;margin-top:.3rem}
 
 /* ===== Pokémon ===== */
-#pokemon{position:relative;max-width:none;padding:0;margin-top:3.5rem;overflow:hidden;color:#fff;font-family:'Fredoka',sans-serif;font-size:1.1rem;background:linear-gradient(180deg,#2a75bb,#1d4f8a 60%,#173f70)}
+#pokemon{position:relative;max-width:none;padding:0;margin-top:3.5rem;overflow-x:clip;color:#fff;font-family:'Fredoka',sans-serif;font-size:1.1rem;background:linear-gradient(180deg,#2a75bb,#1d4f8a 60%,#173f70)}
 .poke-in{max-width:560px;margin:auto;padding:0 1.4rem 4rem}
 #pokemon h2,#pokemon h3{font-family:'Bangers',cursive;color:#ffcb05;letter-spacing:.06em;text-shadow:3px 3px 0 #173f70;font-size:2.4rem}
 #pokemon h2::after{display:none}
