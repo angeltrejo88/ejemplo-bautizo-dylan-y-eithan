@@ -107,12 +107,12 @@
     <img class="slot" src="img/padrinos.webp" alt="" data-slot style="margin-top: -60px; margin-bottom: -60px; transform: scale(.6); scale: .6;"> <!-- EDITAR -->
   </section>
 
-  <!-- DRESS CODE -->
+  <!-- DRESS CODE 
   <section class="rv cuadro" data-deco>
     <h2>Código de vestimenta</h2>
-    <p class="nombres">Formal</p> <!-- EDITAR -->
+    <p class="nombres">Formal</p>  EDITAR 
     <div class="vestir">
-      <figure><img src="img/vestimenta-ella.webp" alt="" data-slot style="margin-top: -10px; margin-bottom: -6px; transform: scale(.6); scale: .6;"><figcaption>Ellas</figcaption></figure> <!-- EDITAR -->
+      <figure><img src="img/vestimenta-ella.webp" alt="" data-slot style="margin-top: -10px; margin-bottom: -6px; transform: scale(.6); scale: .6;"><figcaption>Ellas</figcaption></figure>  EDITAR
       <figure style="transform: translate(-10px, -23px);">
   <img src="img/vestimenta-el.webp" alt="" data-slot style="margin-top: -10px; margin-bottom: -6px; transform: scale(.5); scale: .5;">
   <figcaption style="transform: translateY(-7px);">Ellos</figcaption>
@@ -120,15 +120,16 @@
 
 
     </div>
-  </section>
+  </section>-->
 
   <!-- CEREMONIA -->
   <section class="rv">
     <img class="slot" src="img/iglesia.webp" alt="" data-slot style="margin-top: -140px; margin-bottom: -80px; transform: scale(.7); scale: .7;"> <!-- EDITAR -->
     <h2>Ceremonia religiosa</h2>
     <p class="nombres">Parroquia Nuestra Señora del Rayo</p>
-    <p>26 de diciembre de 2026 · <span>00:00 hrs</span></p> <!-- EDITAR: hora -->
-    <a class="btn" href="#" target="_blank" rel="noopener">Ver ubicación</a> <!-- EDITAR: Google Maps -->
+    <p><strong>26 de diciembre de 2026 · <span>12:00 pm</span> </strong></p>
+    <p>Los Cipreses 320, El Ciprés, <br> El Ciprés 2, 34217 <br> Durango, Dgo.</p> <!-- EDITAR: hora -->
+    <a class="btn" href="https://maps.app.goo.gl/We4x5E9EDJWSxp5n6" target="_blank" rel="noopener">Ver ubicación</a> <!-- EDITAR: Google Maps -->
   </section>
 
   <!-- ======== PARTE POKÉMON (cambia música y ambiente) ======== -->
@@ -154,8 +155,11 @@
       <img class="logo" src="img/pokemon-logo.webp" alt="Pokémon" data-slot> <!-- EDITAR: logo -->
       <br>
       <br>
-      <h2>¡Entrenadores, prepárense!</h2>
-      <p class="pnombres">Dylan Daniel <br> y <br> Eithan Gabriel</p> <!-- EDITAR -->
+      
+      <h1 class="pnombres">¡Entrenadores, <br>prepárense!</h1>
+
+      <img class="slot" src="img/nombres.webp" alt="" data-slot style="margin-top: 6px; margin-bottom: 4px; transform: scale(.85); scale: .85;">
+      <!--<p class="pnombres">Dylan Daniel <br> y <br> Eithan Gabriel</p>  EDITAR -->
       <br>
       <br>
       <p class="chip">Sábado 26 de diciembre · 2026</p>
@@ -166,14 +170,15 @@
       <br>
       <br>
 
-      <h3>Salón Jhup Kids</h3>
-      <p>Recepción · <span>00:00 hrs</span></p> <!-- EDITAR: hora -->
+      <h3>Salón Juhp Kids</h3>
+      <p>Gral, Av. del Factor 700, <br> La Cuadra del Ferrocarril, 34020 <br> Durango, Dgo.</p>
+      <p><strong>Recepción · <span>3:30 pm</span> </strong></p> <!-- EDITAR: hora -->
       <div class="fotos">
         <img src="img/salon-1.webp" alt="Salón Jhup Kids" data-slot> <!-- EDITAR -->
         <img src="img/salon-2.webp" alt="Juegos del salón" data-slot>
         <img src="img/salon-3.webp" alt="Salón Jhup Kids" data-slot>
       </div>
-      <a class="btn" href="#" target="_blank" rel="noopener">Cómo llegar al salón</a> <!-- EDITAR: Google Maps -->
+      <a class="btn" href="https://maps.app.goo.gl/piBHXtAgD7F4eQjdA" target="_blank" rel="noopener">Cómo llegar al salón</a> <!-- EDITAR: Google Maps -->
       <p class="gracias">¡Gracias por venir a esta aventura con nosotros!</p>
     </div>
   </section>
@@ -184,7 +189,7 @@
     <h2>Confirma tu asistencia</h2>
     <form id="rsvp" method="post" target="envio">
       <input id="fNombre" type="text" placeholder="Tu nombre" required autocomplete="name">
-      <select id="fPases" required><option value="" disabled selected>Número de pases</option></select>
+    
       <div class="radios">
         <label><input type="radio" id="fSi" name="asistira" value="Sí" required> Sí asistiré</label>
         <label><input type="radio" id="fNo" name="asistira" value="No"> No podré asistir</label>

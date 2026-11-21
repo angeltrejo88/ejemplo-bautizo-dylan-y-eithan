@@ -94,7 +94,12 @@ figcaption{font-size:1rem;margin-top:.3rem}
 .chip{display:inline-block;padding:.4rem 1.1rem;border-radius:2rem;background:#ffcb05;color:#173f70;font-weight:600}
 .pk{position:absolute;z-index:0;width:min(30vw,140px);margin:0;pointer-events:none}
 .pk.izq{left:-9%}.pk.der{right:-9%}
-.pk.a{top:12%}.pk.b{top:20%}.pk.c{top:46%}.pk.d{top:70%; z-index: 2;}.pk.e{top:82%; z-index: 2;}.pk.f{top:4%}
+.pk.a{top:12%}.pk.b{top:20%}.pk.c{top:46%}.pk.d{top:70%; z-index: 2;}.pk.e {
+  top: 82%;
+  z-index: 2;
+  transform: scaleX(-1);
+}
+.pk.f{top:4%}
 .fotos{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin:1rem 0 1.4rem}
 .fotos img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:.8rem;border:3px solid #ffcb05}
 .fotos img:first-child{grid-column:span 2;aspect-ratio:16/9}

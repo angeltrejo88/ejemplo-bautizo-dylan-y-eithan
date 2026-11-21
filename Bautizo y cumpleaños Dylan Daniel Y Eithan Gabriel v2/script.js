@@ -1,12 +1,12 @@
 /* ===== CONFIG ===== */
 const CONFIG = {
   fechaEvento: "2026-12-26T00:00:00",          // EDITAR: agregar hora cuando se sepa
-  maxPases: 10,                                 // EDITAR: tope de pases (solo Angel y el organizador lo saben)
+                                  // EDITAR: tope de pases (solo Angel y el organizador lo saben)
   audio: { bautizo: "audio/bautizo.mp3", pokemon: "audio/pokemon.mp3" }, // EDITAR
   form: {                                       // EDITAR: Google Forms
     action: "https://docs.google.com/forms/d/e/TU_FORM_ID/formResponse",
     entryNombre: "entry.0000000001",
-    entryPases: "entry.0000000002",
+    
     entryAsistira: "entry.0000000003"
   }
 };
@@ -210,10 +210,10 @@ tick(); setInterval(tick, 1000);
 
 /* ===== CONFIRMACIÓN (envío silencioso a Google Forms) ===== */
 const f = $("#rsvp");
-for (let i = 1; i <= CONFIG.maxPases; i++) $("#fPases").add(new Option(i, i));
+
 f.action = CONFIG.form.action;
 $("#fNombre").name = CONFIG.form.entryNombre;
-$("#fPases").name = CONFIG.form.entryPases;
+
 $("#fSi").name = $("#fNo").name = CONFIG.form.entryAsistira;
 let enviado = false;
 f.addEventListener("submit", () => { enviado = true; });
